@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: space-between; /* Keep header, lyrics, and footer spaced */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+/* Header Styling */
+header {
+    font-family: "Bebas Neue", sans-serif;
+    padding: 20px;
+    border-bottom: 2px solid #f1c40f;
+    color:bisque;
+}
+
+h2,h3{
+    font-family: "Bebas Neue", sans-serif;
+    padding: 20px;
+    border-bottom: 2px solid #f1c40f;
+    color:bisque;
+    
+}
+
+/* Lyrics Styling */
+.lyrics {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    backdrop-filter: blur(10px); /* Adds the blur effect */
+    border-radius: 10px; /* Rounds the corners */
+    padding: 20px;
+    min-width: 300px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    color: white; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    flex-grow: 1; /* Ensures it takes available space */
+}
+/* styling each line f1,f2,f3*/
+.f1{
+    font-family: "Shadows Into Light", cursive;;
+    color: #f1c40f;
+    font-size: 1.5em;
+    
+}
+
+.f2{
+    font-family: "Sofadi One", system-ui;;
+    color:black;
+    font-size: 2em;
+    
+}
+
+.f3{
+    font-family: "Gloria Hallelujah", cursive;
+    color:#f4e8c1;
+    font-size: 1.2em;
+}
+
+
+/* Footer Styling */
+footer {
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+
+
